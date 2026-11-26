@@ -1,51 +1,88 @@
-Viktor Leongard built the ProShift app as a Free app. This SERVICE is provided by Viktor Leongard at no cost and is intended for use as is.
+# ProShift – Privacy Policy
 
-This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
+Effective: 26 November 2026 (ProShift 1.6)
 
-If you choose to use my Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that I collect is used for providing and improving the Service. I will not use or share your information with anyone except as described in this Privacy Policy.
+ProShift ("the app") is made by Viktor Leongard ("I", "me"). This page explains what data the app uses, why, who else receives it, and what you can do about it. If you have questions, write to me at vleongard@icloud.com.
 
-The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at Shift Calendar unless otherwise defined in this Privacy Policy.
+## Summary
 
-Information Collection and Use
+- Your shift calendar is stored on your phone and, so that it can be shared and kept in sync, in a cloud database (Google Firebase) under an anonymous account. I don't ask for your name, email address or phone number.
+- People you share your calendar with can read it. You can stop sharing at any time.
+- The free app shows ads from Unity LevelPlay. Ads only use personal data for personalisation if you agree. Premium buyers see no ads.
+- Purchases are handled by Apple or Google. I never see your payment details.
+- With Premium, the app writes your shifts into a separate "ProShift" calendar on your phone. It does not read your other events.
 
-For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information, including but not limited to launch count, shift count, use times. The information that I request will be retained on your device and is not collected by me in any way.
+## Data the app uses
 
-The app does use third party services that may collect information used to identify you.
+### Your shift calendar
+Your shift pattern, start date, days you changed by hand, their notes, shift names, colours and app settings are stored on your device.
 
-Link to privacy policy of third party service providers used by the app
+To sync your calendar and share it, the app signs in to Google Firebase with an **anonymous account** (a random user ID, no name or email) and stores your calendar in Cloud Firestore under that ID. Firebase also stores the share link token you create and the anonymous IDs of the people who follow your calendar.
 
-AdMob
+Purpose: providing the app's core function (your calendar on your devices, and sharing it). Legal basis (GDPR): performance of the service you requested (Art. 6(1)(b)).
 
-I want to inform you that whenever you use my Service, in a case of an error in the app I collect data and information (through third party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing my Service, the time and date of your use of the Service, and other statistics.
+### Sharing your calendar
+When you send your link or show your QR code, anyone who has it can add your calendar and read it in the app: your shifts, the days you changed and their notes. They cannot change anything. "Stop sharing my calendar" (share screen) ends access for everyone who used your link or code. Only share it with people you trust.
 
-Cookies
+### Advertising (Unity LevelPlay)
+The free version shows ads through **Unity LevelPlay** (ironSource Ads, Unity Technologies). No ads from Google are used. Ads only appear after you finish a task, never while you edit.
 
-Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory.
+To deliver and measure ads and to prevent fraud, the LevelPlay SDK collects:
+- device identifiers: on Android the advertising ID, on iPhone an app-vendor identifier (the app does not ask for Apple's tracking permission and does not use Apple's advertising identifier);
+- approximate location derived from your IP address;
+- interactions with ads (views, clicks) and technical diagnostics.
 
-This Service does not use these “cookies” explicitly. However, the app may use third party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.
+Before the first ad, the app asks whether you allow **personalised ads**. If you say no, ads are not personalised. You can change your choice at any time in the app menu under **Privacy options**. On Android you can also reset or delete your advertising ID in the system settings.
 
-Service Providers
+Legal basis: your consent for personalised ads (Art. 6(1)(a) GDPR); legitimate interest in financing the free app with non-personalised ads and preventing ad fraud (Art. 6(1)(f)).
 
-I may employ third-party companies and individuals due to the following reasons:
+Unity's privacy policy: https://unity.com/legal/privacy-policy
 
-To facilitate our Service; To provide the Service on our behalf; To perform Service-related services; or To assist us in analyzing how our Service is used. I want to inform users of this Service that these third parties have access to your Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
+### Premium and purchases
+Premium is a one-time purchase through the App Store or Google Play. Apple or Google process the payment; I only receive confirmation that Premium is active on your account. With Premium (and with "24 hours without ads"), no ads are requested.
 
-Security
+### Your phone's calendar (Premium)
+If you turn on "Show shifts in my phone calendar", the app asks for calendar access and creates a separate calendar called "ProShift" with your next 8 weeks of shifts. It only changes that calendar and never reads, changes or uploads your other events. Turning the switch off deletes the ProShift calendar. On iPhone the system asks for full calendar access because the app needs it to create its own calendar.
 
-I value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and I cannot guarantee its absolute security.
+### Public holidays
+To show public holidays, the app requests the holiday list for the country you choose from the free Nager.Date service (date.nager.at). The request contains the year and country code, and like every internet request your IP address. No other data is sent.
 
-Links to Other Sites
+### Feedback
+If you send feedback in the app, your message and technical details (app version, operating system and version, language, device model) are stored as an issue in my private GitHub repository so that I can reply. Don't include personal details you don't want to share.
 
-This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by me. Therefore, I strongly advise you to review the Privacy Policy of these websites. I have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
+### Other apps
+After you mark vacation days, the app may show a one-time tip for my app Voya. Tapping it opens the store page. No data is sent.
 
-Children’s Privacy
+## Who receives data
 
-These Services do not address anyone under the age of 13. I do not knowingly collect personally identifiable information from children under 13. In the case I discover that a child under 13 has provided me with personal information, I immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact me so that I will be able to do necessary actions.
+- **Google Firebase** (Google Ireland Ltd. / Google LLC): calendar sync and sharing, anonymous sign-in. https://firebase.google.com/support/privacy
+- **Unity Technologies** (LevelPlay / ironSource Ads): advertising, as described above. https://unity.com/legal/privacy-policy
+- **Apple / Google**: app distribution and purchases, under their own privacy policies.
+- **Nager.Date**: public holiday lists.
+- **GitHub** (GitHub Inc.): storage of feedback you send.
 
-Changes to This Privacy Policy
+Some of these providers process data outside the EU (e.g. in the USA) on the basis of the EU-US Data Privacy Framework or standard contractual clauses. I don't sell your data.
 
-I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.
+## How long data is kept
 
-Contact Me
+Data on your device stays until you delete it or the app. Your calendar in Firebase stays as long as you use the app; write to me and I will delete your calendar and anonymous account. Ad data is kept by Unity according to its policy. Feedback is kept until the issue is no longer needed.
 
-If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at vleongard@icloud.com
+## Your rights
+
+Under the GDPR you have the right to access, correction, deletion, restriction, data portability and objection, and to withdraw consent at any time (Privacy options in the app). You can also complain to a data protection authority. To use your rights, write to vleongard@icloud.com.
+
+## Children
+
+ProShift is not directed at children under 13, and I do not knowingly collect data from them. If you believe a child has provided personal data, contact me and I will delete it.
+
+## Security
+
+Data is transmitted encrypted (HTTPS). No method of transmission or storage is 100 % secure, but I use reasonable means to protect your data.
+
+## Changes
+
+I may update this policy when the app changes. The current version is always on this page, with its effective date at the top.
+
+## Contact
+
+Viktor Leongard · vleongard@icloud.com
